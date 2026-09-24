@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>D'Cartail Pricelist</title>
+  <meta name="description" content="D'Cartail premium car care service. Cek promo, dan estimasi harga detailing & coating berdasarkan tipe mobil." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="floating-wa" href="https://wa.me/6281935683186?text=Halo%2C%20saya%20ingin%20konsultasi%20pengerjaan%20di%20D%27Cartail.%20Mohon%20informasi%20paket%20yang%20cocok%20untuk%20kendaraan%20saya." target="_blank">
+    WhatsApp
+  </a>
+
+  <header class="hero">
+    <video class="hero-video" autoplay muted loop playsinline>
+      <source src="assets/hero-video.mp4" type="video/mp4" />
+    </video>
+    <div class="hero-overlay"></div>
+
+    <nav class="glass-nav">
+      <a class="logo-wrap" href="#top">
+        <img class="logo-img" src="assets/logo.png" alt="D'Cartail" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+        <span class="logo-fallback">d'Cartail</span>
+      </a>
+      <a class="nav-cta" href="https://wa.me/6281935683186?text=Halo%2C%20saya%20ingin%20konsultasi%20pengerjaan%20di%20D%27Cartail.%20Mohon%20informasi%20paket%20yang%20cocok%20untuk%20kendaraan%20saya." target="_blank">
+        Konsultasi Gratis
+      </a>
+    </nav>
+
+    <section id="top" class="hero-content glass-panel">
+      <p class="eyebrow">Professional Detailing • Ceramic Coating • Car Care Store</p>
+      <h1>D'Cartail Premium Car Care Service</h1>
+      <p class="subtitle">
+        One Stop Solution for Car Care Enthusiast. D'Cartail membantu perawatan, proteksi, dan estetika kendaraan melalui detailing, coating, paint correction, glass polishing, car care store, training center, dan community lounge.
+      </p>
+
+      <div class="service-pills">
+        <span>Coating Mobil</span>
+        <span>Interior Detailing</span>
+        <span>Exterior Detailing</span>
+        <span>Paint Correction</span>
+        <span>Glass Polishing</span>
+        <span>Car Care Superstore</span>
+      </div>
+
+      <div class="hero-divider"></div>
+
+      <h2 class="hero-subtitle">Cek Estimasi Harga Detailing & Coating Mobilmu</h2>
+      <p class="subtitle small">Lihat promo yang sedang berjalan, lalu ketik tipe mobilmu untuk cek estimasi harga berdasarkan kategori kendaraan.</p>
+
+      <div class="hero-actions">
+        <a href="#promo" class="primary-btn">Lihat Promo</a>
+        <a href="#estimator" class="secondary-btn">Cek Harga</a>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="promo-section">
+      <div class="section-head">
+        <p class="eyebrow">Promo Spesial D'Cartail</p>
+        <h2>Promo Bulan Ini</h2>
+        <p>Penawaran spesial untuk detailing, coating, dan proteksi kendaraan. Semua pengerjaan coating sudah include Complete Detailing.</p>
+      </div>
+
+      <div class="promo-grid">
+        <article class="promo-card">
+          <div class="discount-badge special">Special Price</div>
+          <h3>Complete Detailing</h3>
+          <p class="old-price">Rp 2.625.000</p>
+          <p class="big-price">Rp 2.188.000</p>
+          <p class="bonus">One Price All Size • Exterior • Interior • Engine Bay</p>
+        </article>
+
+        <article class="promo-card featured">
+          <div class="discount-badge best">Best Seller</div>
+          <h3>Meguiar's Premium Coating</h3>
+          <p class="old-price">Rp 6.250.000</p>
+          <p class="big-price">Rp 3.749.000</p>
+          <p class="bonus">2 Years Warranty • One Price All Size • Kuota 3 Mobil</p>
+        </article>
+
+        <article class="promo-card">
+          <div class="discount-badge blue">New</div>
+          <h3>Meguiar's Platinum Coating</h3>
+          <p class="old-price">Rp 6.875.000</p>
+          <p class="big-price">Rp 4.999.000</p>
+          <p class="bonus">3 Years Warranty • One Price All Size</p>
+        </article>
+
+        <article class="promo-card">
+          <div class="discount-badge">15% OFF</div>
+          <h3>Autosol Signature Coating</h3>
+          <p class="old-price">Rp 9.250.000</p>
+          <p class="big-price">Rp 7.862.500</p>
+          <p class="bonus">5 Years Warranty • FREE Fish Bowl • Tebus Murah Produk 25%</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="estimator" class="estimator-intro">
+      <div class="section-head">
+        <p class="eyebrow">Step 1</p>
+        <h2>Cari Mobilmu</h2>
+        <p>Ketik tipe mobil, pilih dari hasil pencarian, lalu klik layanan yang kamu mau.</p>
+      </div>
+
+      <div class="search-card">
+        <label for="carSearch">Tipe mobil kamu</label>
+        <input id="carSearch" type="text" placeholder="Contoh: Sealion 7, Civic, Alphard, Fortuner" autocomplete="off" />
+        <div id="suggestions" class="suggestions"></div>
+        <small>Belum ketemu? Klik konsultasi gratis, tim D'Cartail bantu cek kategori mobilmu.</small>
+      </div>
+    </section>
+
+    <section id="result" class="result hidden">
+      <div class="result-top">
+        <div>
+          <p class="eyebrow">Step 2</p>
+          <h2 id="selectedCar">BYD Sealion 7</h2>
+          <p id="selectedCategory" class="badge">Regular Category</p>
+        </div>
+      </div>
+
+      <p class="click-note">Klik salah satu layanan di bawah untuk lanjut konsultasi.</p>
+      <div id="priceGrid" class="price-grid"></div>
+    </section>
+
+    <section id="consultation" class="consultation hidden">
+      <div class="consultation-copy">
+        <p class="eyebrow">Step 3</p>
+        <h2>Konsultasi Sekarang</h2>
+        <p>Paket yang kamu pilih sudah siap dikirim ke WhatsApp D'Cartail.</p>
+      </div>
+
+      <div class="summary-card">
+        <div>
+          <span>Mobil</span>
+          <strong id="summaryCar">Honda Civic</strong>
+        </div>
+        <div>
+          <span>Kategori</span>
+          <strong id="summaryCategory">Regular Category</strong>
+        </div>
+        <div>
+          <span>Layanan</span>
+          <strong id="summaryService">Express Polishing</strong>
+        </div>
+        <div>
+          <span>Estimasi Harga</span>
+          <strong id="summaryPrice">Rp 792.000</strong>
+        </div>
+      </div>
+
+      <a id="consultWa" class="consult-main-btn" target="_blank">Konsultasi Sekarang</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>d'Cartail Premium Car Care Service</p>
+    <p>Jl. Radio Dalam Raya 18 • @dcartail • 0819 3568 3186</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
