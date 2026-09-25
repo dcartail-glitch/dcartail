@@ -1,0 +1,17 @@
+media:
+  input: assets # Folder tempat menyimpan gambar
+  output: /assets
+
+content:
+  - name: artikel
+    label: Artikel Blog
+    type: collection
+    path: artikel # Folder tempat file HTML artikel disimpan
+    filename: "{primary}.html" # Format nama file baru
+    fields:
+      - name: title
+        label: Judul Artikel
+        type: string
+      - name: body
+        label: Isi Artikel
+        type: rich-text # Editor teks yang enak dipakai
