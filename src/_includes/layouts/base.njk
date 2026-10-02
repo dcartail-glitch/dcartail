@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ title or "d'Cartail - Ceramic Coating & Detailing Mobil Jakarta Selatan" }}</title>
+  <meta name="description" content="{{ description or "d'Cartail adalah premium auto detailing studio & spesialis nano ceramic coating mobil di Jakarta Selatan." }}" />
+  <link rel="canonical" href="https://dcartail.pages.dev{{ page.url }}" />
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <a class="floating-wa" href="https://wa.me/6281935683186" target="_blank">WhatsApp</a>
+
+  <header class="hero hero-article">
+    <div class="hero-overlay"></div>
+    <nav class="glass-nav">
+      <a class="logo-wrap" href="/">
+        <img class="logo-img" src="/assets/logo.png" alt="d'Cartail">
+        <span class="logo-fallback">d'Cartail</span>
+      </a>
+      <a class="nav-cta" href="/">Kembali ke Beranda</a>
+    </nav>
+    <section class="hero-content glass-panel">
+      <p class="eyebrow">{{ eyebrow or "d'Cartail" }}</p>
+      <h1>{{ title }}</h1>
+      <p class="subtitle small">{{ description }}</p>
+    </section>
+  </header>
+
+  <main>
+    <section class="promo-section">
+      <div class="article-body">
+        {{ content | safe }}
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>d'Cartail Premium Car Care Service</p>
+    <p>Jl. Radio Dalam Raya 18 • @dcartail • 0819 3568 3186</p>
+  </footer>
+
+  <script src="/script.js"></script>
+</body>
+</html>
