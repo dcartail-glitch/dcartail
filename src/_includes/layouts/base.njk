@@ -6,34 +6,27 @@
   <title>{{ title or "d'Cartail - Ceramic Coating & Detailing Mobil Jakarta Selatan" }}</title>
   <meta name="description" content="{{ description or "d'Cartail adalah premium auto detailing studio & spesialis nano ceramic coating mobil di Jakarta Selatan." }}" />
   <link rel="canonical" href="https://dcartail.pages.dev{{ page.url }}" />
+  <meta name="google-site-verification" content="3mWgaa711MF4CFI-LfRs3fcYTMIUIPRYTcjt6XEBDyg" />
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="{{ title or "d'Cartail" }}" />
+  <meta property="og:description" content="{{ description or "Premium auto detailing & ceramic coating Jakarta Selatan." }}" />
+  <meta property="og:url" content="https://dcartail.pages.dev{{ page.url }}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://dcartail.pages.dev/assets/logo.png" />
+  
   <link rel="stylesheet" href="/style.css" />
+
+  {% if schema %}
+  <script type="application/ld+json">
+  {{ schema | safe }}
+  </script>
+  {% endif %}
 </head>
 <body>
-  <a class="floating-wa" href="https://wa.me/6281935683186" target="_blank">WhatsApp</a>
+  <a class="floating-wa" href="https://wa.me/6281935683186?text=Halo%2C%20saya%20ingin%20konsultasi%20pengerjaan%20di%20d%27Cartail." target="_blank">WhatsApp</a>
 
-  <header class="hero hero-article">
-    <div class="hero-overlay"></div>
-    <nav class="glass-nav">
-      <a class="logo-wrap" href="/">
-        <img class="logo-img" src="/assets/logo.png" alt="d'Cartail">
-        <span class="logo-fallback">d'Cartail</span>
-      </a>
-      <a class="nav-cta" href="/">Kembali ke Beranda</a>
-    </nav>
-    <section class="hero-content glass-panel">
-      <p class="eyebrow">{{ eyebrow or "d'Cartail" }}</p>
-      <h1>{{ title }}</h1>
-      <p class="subtitle small">{{ description }}</p>
-    </section>
-  </header>
-
-  <main>
-    <section class="promo-section">
-      <div class="article-body">
-        {{ content | safe }}
-      </div>
-    </section>
-  </main>
+  {{ content | safe }}
 
   <footer>
     <p>d'Cartail Premium Car Care Service</p>
