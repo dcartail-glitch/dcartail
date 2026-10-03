@@ -3,10 +3,19 @@ layout: layouts/base.njk
 ---
 
 <header class="hero hero-article">
+  <div class="hero-overlay"></div>
   <nav class="glass-nav">
-    <a class="logo-wrap" href="/">d'Cartail</a>
+    <a class="logo-wrap" href="/">
+      <img class="logo-img" src="/assets/logo.png" alt="d'Cartail">
+      <span class="logo-fallback">d'Cartail</span>
+    </a>
     <a class="nav-cta" href="/">Kembali ke Beranda</a>
   </nav>
+  <section class="hero-content glass-panel">
+    <p class="eyebrow">{{ eyebrow or "d'Cartail" }}</p>
+    <h1>{{ title }}</h1>
+    <p class="subtitle small">{{ description }}</p>
+  </section>
 </header>
 
 <main>
