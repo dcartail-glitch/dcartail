@@ -29,7 +29,7 @@ Karena polishing mengikis lapisan permukaan dalam jumlah sangat tipis, kondisi d
 
 Ceramic coating adalah cairan pelapis yang diaplikasikan pada permukaan kendaraan, lalu dibiarkan mengeras melalui proses curing. Sebelum aplikasi, permukaan harus dibersihkan dan dipersiapkan dengan baik agar coating dapat menempel secara merata.
 
-Lapisan ini dapat membantu kotoran lebih mudah dibersihkan, membuat air lebih mudah membentuk butiran, dan menjaga tampilan permukaan bila disertai perawatan yang tepat. Ceramic coating juga bukan pengganti pencucian rutin.
+Lapisan ini dapat membantu kotoran lebih mudah dibersihkan, membuat air lebih mudah membentuk butiran, dan menjaga tampilan permukaan bila disertai perawatan yang tepat. Ceramic coating juga bukan pengganti pencucian rutin. Baca juga pembahasan tentang [manfaat ceramic coating untuk mobil](/artikel/artikel-1/).
 
 Coating tidak membuat cat kebal terhadap goresan, benturan batu, noda air, kotoran burung, atau teknik mencuci yang kasar. Daya tahan dan hasilnya dipengaruhi oleh produk, persiapan permukaan, teknik aplikasi, kondisi penggunaan mobil, dan perawatan setelah pemasangan.
 
@@ -47,4 +47,4 @@ Ketiganya dapat menjadi bagian dari satu rangkaian pengerjaan, tetapi tidak sela
 
 Jika mobil membutuhkan pembersihan menyeluruh, detailing dapat menjadi langkah awal. Bila permukaan cat terlihat kusam atau memiliki swirl mark, polishing dapat dipertimbangkan setelah inspeksi. Jika kondisi permukaan sudah baik dan Anda ingin perawatannya lebih mudah, ceramic coating dapat menjadi tahap lanjutan.
 
-Setiap mobil memiliki kondisi cat, riwayat perawatan, dan pola pemakaian yang berbeda. Konsultasikan kondisi kendaraan Anda dengan d'Cartail untuk menentukan proses yang sesuai tanpa pengerjaan berlebihan. Hubungi d'Cartail melalui DM atau WhatsApp untuk menjadwalkan pemeriksaan dan konsultasi.
+Setiap mobil memiliki kondisi cat, riwayat perawatan, dan pola pemakaian yang berbeda. Konsultasikan kondisi kendaraan Anda dengan d'Cartail untuk menentukan proses yang sesuai tanpa pengerjaan berlebihan. Untuk menjadwalkan pemeriksaan dan konsultasi, [Konsultasi lewat WhatsApp](https://wa.me/6281935683186).
