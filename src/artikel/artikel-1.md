@@ -1,10 +1,10 @@
 ---
-title: "Apa Itu Ceramic Coating dan Manfaatnya untuk Mobil"
-description: "Kenali manfaat ceramic coating, perbedaannya dengan polishing, batas perlindungannya, serta cara merawat mobil setelah coating."
-layout: layouts/artikel.njk
+title: Apa Itu Ceramic Coating dan Manfaatnya untuk Mobil
+description: Kenali manfaat ceramic coating, perbedaannya dengan polishing,
+  batas perlindungannya, serta cara merawat mobil setelah coating.
 date: 2026-09-25
+layout: layouts/artikel.njk
 ---
-
 Mobil yang rutin dicuci belum tentu selalu terlihat mengilap. Paparan debu, hujan, kotoran jalan, dan cara mencuci yang kurang tepat dapat membuat tampilan cat perlahan menurun.
 
 Ceramic coating menjadi salah satu pilihan untuk membantu menjaga permukaan cat sekaligus mempermudah perawatan sehari-hari. Namun, sebelum memilih layanan coating, penting untuk memahami manfaat dan batas perlindungannya.
