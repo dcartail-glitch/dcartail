@@ -7,13 +7,18 @@ permalink: /artikel/
 ---
 <div class="article-list">
   <h2>Artikel Terbaru</h2>
-  <div class="promo-grid">
+  <div class="article-grid">
     {% for post in collections.artikel %}
-    <a href="{{ post.url }}" class="promo-card" style="text-decoration: none; color: inherit;">
-      <div class="discount-badge blue">Artikel</div>
+    <a href="{{ post.url }}" class="article-card">
+      <div class="article-badge {% if loop.first %}new{% else %}regular{% endif %}">
+        {% if loop.first %}BARU{% else %}ARTIKEL{% endif %}
+      </div>
       <h3>{{ post.data.title }}</h3>
-      <p class="bonus">{{ post.data.description }}</p>
-      <p class="card-cta">Baca Artikel →</p>
+      <p class="article-desc">{{ post.data.description }}</p>
+      <div class="article-meta">
+        <span class="article-date">{{ post.date | formatTanggal }}</span>
+        <span class="article-cta">Baca →</span>
+      </div>
     </a>
     {% endfor %}
   </div>
