@@ -483,3 +483,50 @@ footer p{margin:6px 0}
     grid-template-columns: 1fr;
   }
 }
+
+/* ========================================= */
+/* ARTICLE TABS — Kategori Filter            */
+/* ========================================= */
+
+.article-tabs {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 32px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tab-btn {
+  padding: 10px 20px;
+  border-radius: 999px;
+  border: 1px solid rgba(6, 25, 35, 0.15);
+  background: #fff;
+  color: #061923;
+  font-weight: 800;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: inherit;
+}
+
+.tab-btn:hover {
+  border-color: #caa24d;
+  color: #caa24d;
+}
+
+.tab-btn.active {
+  background: #061923;
+  color: #fff;
+  border-color: #061923;
+}
+
+@media (max-width: 760px) {
+  .article-tabs {
+    gap: 8px;
+    margin-bottom: 24px;
+  }
+  .tab-btn {
+    padding: 8px 14px;
+    font-size: 12px;
+  }
+}

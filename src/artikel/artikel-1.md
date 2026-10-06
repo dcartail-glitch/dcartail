@@ -4,6 +4,7 @@ description: Kenali manfaat ceramic coating, perbedaannya dengan polishing,
   batas perlindungannya, serta cara merawat mobil setelah coating.
 date: 2026-09-25
 layout: layouts/artikel.njk
+category: car-care
 ---
 Mobil yang rutin dicuci belum tentu selalu terlihat mengilap. Paparan debu, hujan, kotoran jalan, dan cara mencuci yang kurang tepat dapat membuat tampilan cat perlahan menurun.
 

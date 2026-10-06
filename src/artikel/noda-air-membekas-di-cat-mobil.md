@@ -4,6 +4,7 @@ description: "Noda air yang dibiarkan bisa membekas di cat mobil. Kenali penyeba
 date: 2026-10-06
 eyebrow: "Panduan Perawatan"
 layout: layouts/artikel.njk
+category: car-care
 ---
 
 Mobil yang terkena hujan lalu dibiarkan kering di bawah matahari sering meninggalkan bercak kecil di permukaan cat. Awalnya terlihat ringan, tetapi bila dibiarkan berulang, bercak ini bisa mengeras dan sulit hilang dengan pencucian biasa.

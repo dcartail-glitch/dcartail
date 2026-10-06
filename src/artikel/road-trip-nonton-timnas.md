@@ -4,6 +4,7 @@ description: Panduan singkat menyiapkan mobil, berkendara, dan parkir saat road 
 date: 2026-10-06
 eyebrow: Automotive Lifestyle
 layout: layouts/artikel.njk
+category: motorsport
 ---
 Menonton pertandingan Timnas langsung di stadion punya pengalaman tersendiri. Suasana tribun, nyanyian penonton, dan momen gol terasa berbeda dibanding menonton dari rumah. Bagi yang datang dari luar kota, perjalanan menuju stadion biasanya jadi bagian dari acara itu sendiri.
 

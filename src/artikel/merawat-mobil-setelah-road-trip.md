@@ -4,6 +4,7 @@ description: "Setelah perjalanan jauh, mobil butuh perhatian lebih. Ini bagian y
 date: 2026-10-06
 eyebrow: "Gaya Hidup Otomotif"
 layout: layouts/artikel.njk
+category: lifestyle
 ---
 
 Road trip panjang memang menyenangkan, tetapi kondisi mobil setelah perjalanan sering luput dari perhatian. Begitu sampai di rumah, mobil langsung diparkir, barang bawaan diangkut ke dalam, dan perawatan ditunda sampai akhir pekan berikutnya.

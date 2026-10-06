@@ -4,6 +4,7 @@ description: "Mencuci mobil terlihat sederhana, tetapi cara yang salah bisa meni
 date: 2026-10-06
 eyebrow: "Panduan Perawatan"
 layout: layouts/artikel.njk
+category: car-care
 ---
 
 Mencuci mobil adalah perawatan paling dasar, tetapi juga yang paling sering dilakukan dengan cara keliru. Banyak pemilik mobil menganggap semua sabun dan kain bisa dipakai, padahal gesekan kecil yang terjadi berulang bisa meninggalkan baret halus yang lama-kelamaan membuat cat terlihat kusam.

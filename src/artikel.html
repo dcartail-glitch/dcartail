@@ -5,11 +5,20 @@ description: Artikel, tips, dan panduan seputar ceramic coating, detailing, dan 
 eyebrow: Artikel & Tips
 permalink: /artikel/
 ---
+
 <div class="article-list">
   <h2>Artikel Terbaru</h2>
+
+  <div class="article-tabs">
+    <button class="tab-btn active" data-category="all">Semua</button>
+    <button class="tab-btn" data-category="car-care">Car Care</button>
+    <button class="tab-btn" data-category="lifestyle">Lifestyle</button>
+    <button class="tab-btn" data-category="motorsport">Motorsport & Bola</button>
+  </div>
+
   <div class="article-grid">
     {% for post in collections.artikel %}
-    <a href="{{ post.url }}" class="article-card">
+    <a href="{{ post.url }}" class="article-card" data-category="{{ post.data.category }}">
       <div class="article-badge {% if loop.first %}new{% else %}regular{% endif %}">
         {% if loop.first %}BARU{% else %}ARTIKEL{% endif %}
       </div>
@@ -23,3 +32,21 @@ permalink: /artikel/
     {% endfor %}
   </div>
 </div>
+
+<script>
+  document.querySelectorAll('.tab-btn').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      document.querySelectorAll('.tab-btn').forEach(function(b) { b.classList.remove('active'); });
+      btn.classList.add('active');
+      
+      var category = btn.getAttribute('data-category');
+      document.querySelectorAll('.article-card').forEach(function(card) {
+        if (category === 'all' || card.getAttribute('data-category') === category) {
+          card.style.display = '';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    });
+  });
+</script>

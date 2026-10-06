@@ -4,6 +4,7 @@ description: "Panduan memilih produk Meguiar's untuk mencuci, merawat cat, menan
 date: 2026-10-05
 eyebrow: "Panduan Produk"
 layout: layouts/artikel.njk
+category: car-care
 ---
 
 Merawat mobil sendiri terasa lebih mudah ketika setiap produk punya fungsi yang jelas. Masalahnya, pilihan produk car care cukup banyak dan kemasannya sering terlihat sama menariknya. Tanpa memahami kebutuhannya, pemilik mobil bisa membeli produk yang kurang tepat, memakai bahan terlalu agresif, atau melewatkan tahap dasar yang justru paling penting.

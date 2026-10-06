@@ -5,6 +5,7 @@ description: Coating tetap perlu dirawat. Simak cara mencuci, mengeringkan, dan
 date: 2026-10-05
 eyebrow: Tips Perawatan
 layout: layouts/artikel.njk
+category: car-care
 ---
 Mobil yang sudah ceramic coating memang cenderung lebih mudah dibersihkan. Air lebih mudah membentuk butiran, sementara kotoran sehari-hari tidak sekuat sebelumnya menempel pada permukaan. Namun, coating tetap membutuhkan perawatan rutin.
 

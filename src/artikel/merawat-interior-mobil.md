@@ -4,6 +4,7 @@ description: "Interior mobil sering terlewat dalam perawatan. Kenali masalah umu
 date: 2026-10-06
 eyebrow: "Panduan Perawatan"
 layout: layouts/artikel.njk
+category: car-care
 ---
 
 Banyak pemilik mobil cukup disiplin merawat bodi dan cat, tetapi bagian interior baru diperhatikan ketika sudah menimbulkan masalah. Debu yang menumpuk, sisa makanan, tetesan minuman, sampai bau apek biasanya datang perlahan dan baru terasa mengganggu saat perjalanan jauh.

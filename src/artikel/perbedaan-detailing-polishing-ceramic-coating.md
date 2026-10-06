@@ -4,6 +4,7 @@ description: Kenali perbedaan detailing, polishing, dan ceramic coating agar per
 date: 2026-10-05
 eyebrow: Panduan Perawatan
 layout: layouts/artikel.njk
+category: car-care
 ---
 Detailing, polishing, dan ceramic coating sering disebut dalam perawatan mobil, tetapi ketiganya memiliki fungsi yang berbeda. Ada yang berfokus pada kebersihan menyeluruh, ada yang mengoreksi permukaan cat, dan ada pula yang menambahkan lapisan pelindung.
 
