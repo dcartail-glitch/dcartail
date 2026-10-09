@@ -37,11 +37,51 @@
   document.addEventListener('DOMContentLoaded', function() {
     document.querySelectorAll('a[href*="wa.me"]').forEach(function(link) {
       link.addEventListener('click', function() {
+        // GA4 event
         gtag('event', 'whatsapp_click', {
           'event_category': 'engagement',
           'event_label': 'WhatsApp Button',
           'value': 1
         });
+        
+        // Meta Pixel event
+        if (typeof fbq === 'function') {
+          fbq('track', 'Contact', {
+            content_name: 'WhatsApp Click',
+            content_category: 'Lead'
+          });
+        }
+        
+        // ➕ WA Tracking ke Google Sheets
+        try {
+          const urlParams = new URLSearchParams(window.location.search);
+          const payload = {
+            page_url: window.location.href,
+            page_title: document.title,
+            wa_number: '6281935683186',
+            utm_source: urlParams.get('utm_source') || '',
+            utm_campaign: urlParams.get('utm_campaign') || '',
+            referrer: document.referrer || 'direct',
+            user_agent: navigator.userAgent
+          };
+          
+          // Kirim ke Apps Script — pake sendBeacon biar gak block redirect
+          const endpoint = 'hhttps://script.google.com/macros/s/AKfycbwke8zsKOrZxqddRwyPBsiDpzdvalklfQ2DmjBGxxKr6ms8wZxBFKG6WPY9EJdZ1Vjz/exec';
+          
+          if (navigator.sendBeacon) {
+            const blob = new Blob([JSON.stringify(payload)], { type: 'application/json' });
+            navigator.sendBeacon(endpoint, blob);
+          } else {
+            fetch(endpoint, {
+              method: 'POST',
+              mode: 'no-cors',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify(payload)
+            });
+          }
+        } catch (e) {
+          console.warn('WA tracking failed:', e);
+        }
       });
     });
   });
