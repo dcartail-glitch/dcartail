@@ -68,15 +68,14 @@
           // Kirim ke Apps Script — pake sendBeacon biar gak block redirect
           const endpoint = 'https://script.google.com/macros/s/AKfycbwke8zsKOrZxqddRwyPBsiDpzdvalklfQ2DmjBGxxKr6ms8wZxBFKG6WPY9EJdZ1Vjz/exec';
           
-          if (navigator.sendBeacon) {
-            const blob = new Blob([JSON.stringify(payload)], { type: 'application/json' });
-            navigator.sendBeacon(endpoint, blob);
-          } else {
-            fetch(endpoint, {
-              method: 'POST',
-              mode: 'no-cors',
-              headers: { 'Content-Type': 'application/json' },
-              body: JSON.stringify(payload)
+          fetch(endpoint, {
+            method: 'POST',
+            mode: 'no-cors',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(payload),
+            keepalive: true
+          }).catch(function(e) {
+            console.warn('WA tracking failed:', e);
             });
           }
         } catch (e) {
