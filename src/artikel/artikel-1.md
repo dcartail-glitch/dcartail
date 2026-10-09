@@ -3,6 +3,7 @@ title: Apa Itu Ceramic Coating dan Manfaatnya untuk Mobil
 description: Kenali manfaat ceramic coating, perbedaannya dengan polishing,
   batas perlindungannya, serta cara merawat mobil setelah coating.
 date: 2026-09-25
+eyebrow: Edukasi Coating
 layout: layouts/artikel.njk
 category: car-care
 ---

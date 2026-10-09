@@ -1,0 +1,111 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2026-10-02",
+  "period": "2026-10",
+  "validFrom": "2026-10-01",
+  "expiryDate": "2026-10-31",
+  "status": "confirmed",
+  "confirmedBy": "412293341418356737",
+  "confirmedAt": "2026-10-02T06:36:54.923Z",
+  "services": [
+    {
+      "name": "Meguiar's Platinum Coating",
+      "price": 4999000,
+      "priceExotic": 6888000,
+      "warranty": "3 tahun",
+      "note": "One Price All Size (regular), coating M8880"
+    },
+    {
+      "name": "Meguiar's Premium Coating",
+      "price": 3749000,
+      "warranty": "2 tahun",
+      "note": "Kuota 3 mobil tercepat, coating M7880"
+    },
+    {
+      "name": "Autosol Signature Coating",
+      "price": 7862500,
+      "priceExotic": 9562500,
+      "warranty": "5 tahun",
+      "note": "Diskon 15% dari Rp9.250.000"
+    },
+    {
+      "name": "Complete Detailing",
+      "price": 2188000,
+      "warranty": null,
+      "note": "One price all size"
+    },
+    {
+      "name": "Express Polishing",
+      "price": 788000,
+      "warranty": null,
+      "note": "Dari Rp880.000, bonus Sonax Clean & Drive Wipes, one-step polish"
+    },
+    {
+      "name": "Glass Polishing",
+      "price": 588000,
+      "warranty": null,
+      "note": "Dari Rp660.000, bonus Sonax Clean & Drive Wipes"
+    },
+    {
+      "name": "Interior Detailing",
+      "price": 891000,
+      "warranty": null,
+      "note": "Dari Rp990.000, bonus Sonax Clean & Drive Wipes"
+    },
+    {
+      "name": "Exterior Detailing",
+      "price": 1485000,
+      "priceExotic": 1633500,
+      "warranty": null,
+      "note": "Dari Rp1.650.000, bonus Sonax Clean & Drive Wipes"
+    }
+  ],
+  "products": [
+    {
+      "name": "Meguiar's DIY Complete Product Package",
+      "price": 3120000,
+      "note": "Dari Rp3.900.000, 9 produk"
+    },
+    {
+      "name": "CG DIY Total Care Arsenal Range Trunk",
+      "price": 4317000,
+      "note": "Dari Rp5.520.000"
+    },
+    {
+      "name": "CG Bucket Bundling",
+      "price": 1447200,
+      "note": "Dari Rp1.809.000"
+    },
+    {
+      "name": "Rupes LK900E",
+      "price": 10692000,
+      "note": "Dari Rp12.146.000, bonus UNO Advanced 250ml"
+    }
+  ],
+  "promos": [
+    {
+      "name": "Fish Bowl bonus",
+      "note": "Belanja min Rp2.000.000 (1 invoice after diskon, mix brand) - hadiah langsung, tidak berlaku kelipatan"
+    },
+    {
+      "name": "Voucher Showroom 15%",
+      "note": "Untuk showroom mobil baru & bekas, khusus Platinum Coating & Autosol Signature Coating"
+    },
+    {
+      "name": "Diskon 25% tebus murah produk",
+      "note": "Untuk pengerjaan Complete Detailing & all menu coating"
+    }
+  ],
+  "contact": {
+    "whatsapp": "0819 3568 3186",
+    "workshop": "Radio Dalam, Jakarta",
+    "instagram": "@dCartail",
+    "tiktok": "@dCartail"
+  },
+  "bannedClaims": [
+    "garansi seumur hidup",
+    "tahan selamanya",
+    "100% anti gores",
+    "pasti kinclong selamanya"
+  ]
+}
